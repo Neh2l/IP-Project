@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Bus Travel</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Bus Traveller</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#tour">TOUR</a></li>
+        <li><a href="#package">PACKAGE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#">BOOK TRIP</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn">Book Trip</button>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <p>BUS YOUR TRAVEL JOURNEY</p>
+
+          <h1>
+            <span>Where Every</span>
+            <span>Bus Ride Feels</span>
+            <span>Magical!</span>
+          </h1>
+
+          <div class="header__btns">
+            <button class="btn">Book A Trip Now</button>
+            <a class="circle-btn" href="#">
+              <i class="ri-play-circle-fill"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="header__image">
+          <img src="images/bus.png" alt="bus" />
+        </div>
+      </div>
+    </header>
+
+    <script>
+      const menuBtn = document.getElementById("menu-btn");
+      const navLinks = document.getElementById("nav-links");
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+      });
+    </script>
+
+    <section class="popular-section">
+      <h2>Popular Destination</h2>
+      <p class="sub-text">
+        Discover the Most Loved Destination Around the Globe
+      </p>
+
+      <div class="cards-container">
+        <!-- Card 1 -->
+        <div class="card">
+          <img src="images/card.jpg" alt="" />
+          <h3>Sacred Calm at Badrinath Temple.</h3>
+
+          <div class="rating">⭐ 4.7</div>
+          <p class="location">Badrinath, Uttarakhand, India</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <img src="images/card2.jpg" alt="" />
+          <h3>Divine Majesty at Jagannath Temple.</h3>
+
+          <div class="rating">⭐ 4.8</div>
+          <p class="location">Puri, Odisha, India</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <img src="images/card3.webp" alt="" />
+          <h3>Spiritual Serenity at Neem Karoli Temple.</h3>
+
+          <div class="rating">⭐ 4.5</div>
+          <p class="location">Dehradun, India</p>
+        </div>
+      </div>
+
+      <div class="container section">
+        <div class="center-text">
+          <h4 class="sub-heading">Bus Travel, the Easy Way!</h4>
+          <h2>Effortless planning for Your Next Adventure</h2>
+        </div>
+        <br />
+
+        <div class="col-3">
+          <div class="feature-box">
+            <div class="icon-circle">&#9873;</div>
+            <h3>Seamless Booking Process</h3>
+            <p>
+              From booking tickets to tracking your bus in real-time, everything
+              is just a click away.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="feature-box">
+            <div class="icon-circle">&#9968;</div>
+            <h3>Customized Plans Just for You</h3>
+            <p>
+              Everyone travels differently. From preferred timings to
+              budget-friendly options, enjoy a trip designed around you.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="feature-box">
+            <div class="icon-circle">&#128506;</div>
+            <h3>Expert Local Insights</h3>
+            <p>
+              From the best boarding points to local travel hacks, our insights
+              are powered by real people who know the roads.
+            </p>
+          </div>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+    </section>
+    <!-- ================= IGNITE SECTION ================= -->
+    <section class="ignite-section">
+      <div class="ignite-content">
+        <div class="ignite-img">
+          <img src="images/showcase.webp" alt="ignite" />
+        </div>
+
+        <div class="ignite-text">
+          <h2>Ignite Your Wanderlust with Every Bus Ride</h2>
+          <p>
+            Traveling by bus offers comfort and stunning views as you journey to
+            amazing destinations. With spacious seating and breathtaking
+            sceneries, each ride turns into an unforgettable experience filled
+            with peace and adventure.
+          </p>
+
+          <p>
+            Explore the world the slow and cozy way in a bus and experience the
+            joy of travel at your own pace. Whether it’s a trip to a sacred
+            temple, a mountain escape, or a coastal getaway, each journey brings
+            new memories worth holding onto forever.
+          </p>
+
+          <a
+            href="#"
+            class="ignite-btn"
+            style="background-image: url(images/showcase2.jpeg)"
+            >Book A Bus Trip</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STATS SECTION ================= -->
+    <section class="stats-section">
+      <div class="stat-box">
+        <h3>10+</h3>
+        <p>Years Experience</p>
+      </div>
+
+      <div class="stat-box">
+        <h3>12k</h3>
+        <p>Happy Clients</p>
+      </div>
+
+      <div class="stat-box">
+        <h3>4.8</h3>
+        <p>Overall Ratings</p>
+      </div>
+    </section>
+
+    <!-- ================= TEMPLE TRAVEL SECTION ================= -->
+    <section class="temple-section">
+      <h2>Discover Peace, Culture, and Devotion with Our Temple Bus Travels</h2>
+      <p class="temple-sub">
+        Witness Stunning Landscapes from the Comfort of Our Bus Seat
+      </p>
+
+      <div class="temple-boxes">
+        <div class="temple-card">
+          <i class="fa-solid fa-book-open-reader"></i>
+          <h3>Your Road, Your Story</h3>
+          <p>
+            Experience the freedom of your own journey. Our buses offer calm,
+            comfort, and the chance to embrace new destinations while keeping
+            the ride safe and enjoyable.
+          </p>
+        </div>
+
+        <div class="temple-card">
+          <i class="fa-solid fa-water"></i>
+          <h3>Coastal Wonders</h3>
+          <p>
+            Embark on journeys through the enchanting beauty of coastal regions.
+            Let the calming breeze and golden sunsets create unforgettable
+            memories.
+          </p>
+        </div>
+
+        <div class="temple-card">
+          <i class="fa-solid fa-landmark"></i>
+          <h3>Historic Landmarks</h3>
+          <p>
+            Explore the charm of cultural locations and iconic heritage sites.
+            Each ride immerses you in tradition and timeless beauty.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>BusTraveller</h3>
+          <p>
+            Explore the world with ease and comfort through our curated bus
+            journeys. Discover destinations, connect with culture, and enjoy
+            unforgettable experiences.
+          </p>
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#">Home</a>
+          <a href="#">Tours</a>
+          <a href="#">Hotels</a>
+          <a href="#">Cruise</a>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p><i class="fa-solid fa-phone"></i> +1 456 478 7890</p>
+          <p><i class="fa-solid fa-envelope"></i> info@BusTraveller.com</p>
+          <p><i class="fa-solid fa-location-dot"></i> Agra, India</p>
+        </div>
+
+        <div class="footer-subscribe">
+          <h4>Subscribe</h4>
+          <input type="email" placeholder="Enter your email" />
+          <button>Subscribe</button>
+        </div>
+      </div>
+
+      <p class="footer-copy">
+        Copyright © 2025 BusTraveller. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
